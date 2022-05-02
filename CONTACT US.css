@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.bgimage{
+ background-image: url('bgimg.jpg');
+ background-size:100% 120%;
+ width:100%;
+ height:100vh;
+}
+.menu{
+    width: 100%;
+    height:100px;
+    background-color:rgba(0, 0, 0, 0.51)
+}
+.leftmenu{
+    width: 25%;
+    line-height: 80px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left:100px;
+    font-weight:bold;
+    color:white;
+    font-size:22px;
+    font-family:'Montserrat',sans-serif;
+    word-spacing: 10px;
+}
+
+.rightmenu{
+    width:75%;
+    height:100px;
+    float:right;
+    
+}
+
+.rightmenu ul{
+    margin-left:400px;
+}
+.rightmenu ul li{
+    font-family:'Montserrat',sans-serif;
+    display:inline-block;
+    list-style: none;
+    font:15px;
+    color:white;
+    font-weight:bold;
+    line-height:100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+#thirdlist{
+    color:orange;
+}
+    
+.rightmenu ul li:hover{
+    color:orange;
+}
+.dropbtn{
+    font-family:'Montserrat',sans-serif;
+    font-weight:bold;
+    font:15px;
+}
+
+
+.text{
+    margin-top: 100px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    word-spacing: 5px;
+    font-size: 25px;
+    width:50%;
+    margin-left: 10cm;
+    margin-right:10cm;
+    position:relative;
+    padding: 3px;
+    font-family:'montserrat',sans-serif;
+    font-weight: bold;
+    
+}
+
+.text h4{
+    font-size: 15px;
+    font-family:'open sans',sans-serif;
+}
+.text h1{
+    font-size: 62px;
+    font-family:'montserrat',sans-serif;
+    font-weight: bold;
+    margin:14px 0px;
+    color:orange;
+
+}
+.text h3{
+    font-size: 18px;
+    font-family:'open sans',sans-serif;
+    word-spacing: 2px;
+
+}
+.text ul li{
+    list-style: none;
+    margin-top:50px;
+}
+.FB{
+    text-decoration: none;
+    color:white;
+}
+.Email{
+    text-decoration: none;
+    color:white;
+}
